@@ -1,0 +1,1 @@
+gunicorn --workers=4 --bind=0.0.0.0:8080 --timeout=0 --worker-class=uvicorn.workers.UvicornWorker server.__main__:ap
